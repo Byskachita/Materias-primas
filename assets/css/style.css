@@ -1,0 +1,22 @@
+/*****PRUEBA DE INDEX.PHP**********/
+body {
+    background-color: #FDC309;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+fieldset {
+    border: 3px black solid;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+}
+
+input[type="submit"]{
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
