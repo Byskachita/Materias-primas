@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 /***********************************GENERALES*/
-body * {
-    font-family: 'DM-Serif Text', serif;
+body {
+    font-family: 'DM-Serif-Text', serif;
+    font-family: 'DM-Sans', sans-serif;
 }
 
 main {
@@ -92,7 +93,7 @@ p {
 
 #carouselExampleCaptions {
     display: flex;
-    height: 650px;
+    height: auto;
 }
 
 .carousel-item img {
@@ -107,44 +108,35 @@ p {
     text-shadow: 3px 3px 5px #000000;
 }
 
-/******************************************* SECTION INFO ICONS ******************************/
+/******************************************* HEADER ******************************/
 
-img {
-    width: 50px;
+.container-fluid img {
+    width: auto;
     height: auto;
+    border-radius: 10px;
 }
 
-/************************************************ SECTION CARDS PRODUCTS *******************************/
+/************************************************ SECTION CARD RUBRO *******************************/
 
-.card img {
-    object-fit: cover;
+#card-rubro ul {
+    list-style: none;
 }
 
-/***************************************** SECTION BANNER CARDS *******************************/
-
-.card-img {
-    background-color:#ec4e20;
-    width: 100%;
-    height: 300px;
-}
-
-.btn {
-    color: #ec4e20;
-}
 
 /************************************************ CARD SECTION RUBRO *************/
 
-.card-img-top {
+.card-body {
     width: 100%;
     height: 300px;
 }
 
-.d-inline-flex .btn {
-    background-color: #1C3A13;
-    border: none;
+.card .btn {
+    border-color: #1C3A13;
+    color: #1C3A13;
+    position: relative;
 }
 
-.d-inline-flex .btn:hover {
+.card .btn:hover {
     background-color: #ec4e20;
     border: none;
 }
@@ -291,7 +283,7 @@ footer img {
         position: absolute;
         text-align: center;
         padding: 0 150px;
-        top: 200px;
+        top: 170px;
         text-shadow: 3px 3px 5px #000000;
     }
 
@@ -344,7 +336,7 @@ footer img {
 
     .navbar img {
         width: auto;
-        height: 40px;
+        height: 20px;
     }
 
     #navbarSupportedContent {
@@ -354,7 +346,7 @@ footer img {
 
     #carouselExampleCaptions {
         display: flex;
-        height: 250px;
+        width: auto;
     }
  
     .carousel-item img {

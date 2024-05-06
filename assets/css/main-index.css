@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 /***********************************GENERALES*/
-body * {
-    font-family: 'DM-Serif Text', serif;
+body {
+    font-family: 'DM-Serif-Text', serif;
+    font-family: 'DM-Sans', sans-serif;
 }
 
 main {
@@ -31,7 +32,7 @@ h3 {
 }
 
 p {
-    font-family: 'DM-serif', serif;
+    font-family: 'DM-serif-Text', serif;
     font-style: normal;
     font-weight: 25px;
 }
@@ -92,7 +93,7 @@ p {
 
 #carouselExampleCaptions {
     display: flex;
-    height: 650px;
+    height: auto;
 }
 
 .carousel-item img {
@@ -131,6 +132,7 @@ img {
 .btn {
     color: #ec4e20;
 }
+
 
 /************************************************ CARD SECTION RUBRO *************/
 
@@ -290,8 +292,8 @@ footer img {
     .carousel-caption {
         position: absolute;
         text-align: center;
-        padding: 0 150px;
-        top: 200px;
+        padding: 0 50px;
+        top: 170px;
         text-shadow: 3px 3px 5px #000000;
     }
 
@@ -344,7 +346,7 @@ footer img {
 
     .navbar img {
         width: auto;
-        height: 40px;
+        height: 20px;
     }
 
     #navbarSupportedContent {
@@ -354,33 +356,21 @@ footer img {
 
     #carouselExampleCaptions {
         display: flex;
-        height: auto;
+        width: auto;
     }
- 
+
     .carousel-item img {
         object-fit: cover;
     }
 }
 }
-/*
-    .carousel-caption {
-        position: absolute;
-        text-align: center;
-        padding: 0 40px;
-        top: 100px;
-        text-shadow: 3px 3px 5px #000000;
-    }
 
-    .carousel-caption h1 {
-        font-size: 20px;
-    }
+/************************************** SECTION BANNER CARDS ******************************************/
 
-    .carousel-caption h2 {
-        font-size: 18px;
-    }
-
+.card-body h5 {
+    font-size: 25px;
 }
-}
+
 
 
 
