@@ -37,6 +37,10 @@ p {
     font-weight: 25px;
 }
 
+li {
+    font-family: 'DM-serif', serif;
+}
+
 
 /*************************************NAVBAR*/
 
@@ -120,8 +124,9 @@ p {
 /******************************************* HEADER ******************************/
 
 .container-fluid img {
-    width: auto;
-    height: auto;
+    object-fit: cover;
+    width: 700px;
+    height: 600px;
     border-radius: 10px;
 }
 
