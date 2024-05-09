@@ -96,8 +96,9 @@ p {
     height: auto;
 }
 
-.carousel-item img {
+.carousel-inner img {
     object-fit: cover;
+    height: 650px;
 }
 
 .carousel-caption {
@@ -317,12 +318,11 @@ footer img {
     }
 
 
+/*********************************************************/
+/**********************MOVIL*****************************/
 
-@media (min-width: 320px) and (max-width: 425px){
+@media (min-width: 320px) and (max-width: 534px){
 
-
-    /*********************************************************/
-    /**********************MOVIL*****************************/
 
     main {
         width: 100%;
@@ -359,8 +359,9 @@ footer img {
         width: auto;
     }
 
-    .carousel-item img {
+    .carousel-inner img {
         object-fit: cover;
+        height: 250px;
     }
 }
 }
