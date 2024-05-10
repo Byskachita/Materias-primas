@@ -2,8 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 /***********************************GENERALES*/
-body * {
-    font-family: 'DM-Serif Text', serif;
+body {
+    font-family: 'DM-Serif-Text', serif;
+    font-family: 'DM-Sans', sans-serif;
 }
 
 main {
