@@ -3,7 +3,8 @@
 
 /***********************************GENERALES*/
 body * {
-    font-family: 'DM-Serif Text', serif;
+    font-family: 'DM-Serif-Text', serif;
+    font-family: 'DM-Sans', sans-serif;
 }
 
 main {
@@ -33,7 +34,7 @@ h3 {
 p {
     font-family: 'DM-serif', serif;
     font-style: normal;
-    font-weight: 25px;
+    font-weight: 30px;
 }
 
 
@@ -90,69 +91,26 @@ p {
 
 /******************************** HERO SECTION ************************/
 
-#carouselExampleCaptions {
+.card-hero {
+    height: 600px;
     display: flex;
-    height: 650px;
 }
 
-.carousel-item img {
+.card-hero img {
     object-fit: cover;
 }
 
-.carousel-caption {
+.card-img-overlay h1{
     position: absolute;
-    text-align: left;
-    padding: 0 100px;
+    padding: 0 200px;
     top: 450px;
     text-shadow: 3px 3px 5px #000000;
 }
 
-/******************************************* SECTION INFO ICONS ******************************/
-
-img {
-    width: 50px;
-    height: auto;
-}
-
-/************************************************ SECTION CARDS PRODUCTS *******************************/
-
-.card img {
-    object-fit: cover;
-}
-
-/***************************************** SECTION BANNER CARDS *******************************/
-
-.card-img {
-    background-color:#ec4e20;
-    width: 100%;
-    height: 300px;
-}
-
-.btn {
-    color: #ec4e20;
-}
-
-/************************************************ CARD SECTION RUBRO *************/
-
-.card-img-top {
-    width: 100%;
-    height: 300px;
-}
-
-.d-inline-flex .btn {
-    background-color: #1C3A13;
-    border: none;
-}
-
-.d-inline-flex .btn:hover {
-    background-color: #ec4e20;
-    border: none;
-}
-
 /******************************************FORM*/
 
-input .placeholder {
-    color: rgb(223, 221, 221);
+.form-control {
+    color: #C0C0C0;
 }
 
 .warnings {
@@ -163,14 +121,12 @@ input .placeholder {
     padding-top: 20px;
 }
 
-/*+++++++++++++++++++++++++++++++++++++++++CAROUSEL*/
-/*  
-.carousel img {
-    width: 200px;
-    height: auto;
-    align-items: center;
+/*********************************** CONTAINER-FAQ ***************/
+
+.accordion-item  {
+    background-color: #fff;
 }
-*/
+
 /*******************************************WHATSAP*/
 
 a{
