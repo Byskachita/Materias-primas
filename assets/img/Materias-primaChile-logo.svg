@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 170.08 170.08">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: #ae7859;
+      }
+
+      .cls-4 {
+        fill: #f4d8cd;
+      }
+
+      .cls-5 {
+        fill: #213a1d;
+      }
+
+      .cls-6 {
+        fill: #e94f23;
+      }
+    </style>
+    <clipPath id="clippath">
+      <circle class="cls-2" cx="84.84" cy="85.66" r="60.64"/>
+    </clipPath>
+  </defs>
+  <path class="cls-6" d="M85.25,4.69C40.75,4.69,4.69,40.75,4.69,85.25s36.07,80.56,80.56,80.56,80.56-36.07,80.56-80.56S129.74,4.69,85.25,4.69ZM85.25,145.48c-33.26,0-60.23-26.97-60.23-60.23s26.97-60.23,60.23-60.23,60.23,26.96,60.23,60.23-26.97,60.23-60.23,60.23Z"/>
+  <g class="cls-1">
+    <polygon class="cls-4" points="-115 85.25 -114.4 86.29 -113.86 87.21 -15.75 257.15 -14.66 259.04 85.68 85.25 -115 85.25"/>
+    <polygon class="cls-5" points="-15.09 258.79 -13.89 258.79 -12.83 258.79 145.47 259.05 85.53 85.17 -15.09 258.79"/>
+    <polygon class="cls-3" points="-115 84.92 -113.8 84.92 -112.73 84.92 83.5 85.25 85.68 85.25 -115.24 -63.27 -115 84.92"/>
+  </g>
+</svg>

@@ -31,21 +31,21 @@ if ($nombre == "" || $apellido == "" || $email == "" || $mensaje == "") {
     try {
         // Configuración, cambiar correo y credenciales.
         $mail->isSMTP();
-        $mail->Host = 'mail.allgarage.cl';
+        $mail->Host = 'mail.todosuministros.cl'; //mail.allgarage.cl
         $mail->SMTPAuth = true;
-        $mail->Username = 'demo@allgarage.cl';
+        $mail->Username = 'demo@atodosuministros.cl';
         $mail->Password = 'Qwerty.11';
         $mail->SMTPSecure = 'ssl';
         $mail->Port = 465;
 
 
-        //$to = "efigueroa@allgarage.cl"; // el correo donde llegará todo
+        $to = "denisse.rossel@todosuministros.cl"; // el correo donde llegará todo
         $mail->setFrom($email);
         $mail->addAddress($to);
         $mail->Subject = 'Nuevo mensaje desde tu web';
 
         $mail->isHTML(true);
-        $mail->Body = '<strong>' . $nombre . ' ' . $apellido . '</strong> te ha contactado desde tu web y ha enviado el siguiente mensaje: <br><p>' . $mensaje . '</p>';
+        $mail->Body = '<strong>' . $nombre . ' ' . $apellido . '</strong> te ha contactado desde Materias-Primas Chile y ha enviado el siguiente mensaje: <br><p>' . $mensaje . '</p>';
 
         // Envío del correo electrónico
         $mail->send();
